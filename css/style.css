@@ -95,7 +95,8 @@ body{
     text-align: center;
     overflow: auto;
     margin: 50px auto;
-    width: 80%;
+    width: 70%;
+    /* background-color: brown; */
 } 
 .section2-title{
     text-transform: capitalize;
@@ -117,16 +118,18 @@ body{
 } 
 .section2-contnet{
     border: 1px solid gray;
-    width: 28%;
+    width: 30%;
     height: 200px;
     text-align: center;
     font-size: 20px;
     letter-spacing: 1px;
     float: left;
     position: relative;
+   
 }
 .section2-contnet-title{
     text-transform: capitalize;
+    z-index: 3;
 }
 .icon{
     margin: 20px 0px;
@@ -135,6 +138,7 @@ body{
 }
 .section2-contnet-p{
     margin: 20px 0px;
+    z-index: 3;
 }
 .section2-contnet-link{
     text-decoration: none;
@@ -186,14 +190,17 @@ body{
 .featured-container{
     width: 80%;
     margin: auto;
+    
 }
  .featured-content{
     padding-top: 100px;
     overflow: auto;
+    margin: auto;
+   
 }
 .featured-item{
     float: left;
-    width: 27%;
+    width: 30%;
     text-align: center;
     position: relative;
    
@@ -268,7 +275,7 @@ body{
 
 .section4-parent{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 30px ;
 }
 .section4-container{
     width: 80%;
@@ -276,7 +283,7 @@ body{
     
 }
 .section4-content{
-    margin-top: 70px;
+    margin: 70px 0; 
     overflow: auto;
 }
 .offer-item{
@@ -697,7 +704,7 @@ background-color:gray;
     
 }
 .news-item{
-    width: 27%;
+    width: 28%;
     background-color:white;
     padding-left: 30px;
     float: left;
@@ -706,7 +713,7 @@ background-color:gray;
     transition: 1s
 }
 .sec10-item2{
-margin: 0px 4.3%;
+margin: 0px 4%;
 }
 
 .news-icon{
